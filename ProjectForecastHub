@@ -1,0 +1,216 @@
+-- Anime Adventure
+
+--scripts
+
+if game.PlaceId == 8304191830 then
+	local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+	
+	local Win1 = DiscordLib:Window("Anime Adventures") -- Title/Name
+	local Tab1 = Win1:Server("Project Forecast ☁", "") -- Server/Tab
+	local Chann1 = Tab1:Channel("🗒│scripts") -- Channel 0_0
+	local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+	Chann1:Label("Beta version, full release soon.")
+	Chann1:Button("★ Anime Adventures Script | AUTO INFINITE BUFF ERWINS", function()
+	getgenv().erwinCycle = true
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Mstir16/legocheats/main/archive/Anime%20Adventures/Auto%20Erwin%20Buff%20Cycle.lua"))()
+	end)
+	Chann1:Button("[✨UPD 8] Anime Adventures Script Pastebin | BEST AUTO FARM", function()
+		getgenv().erwinCycle = true
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ArponAG/Scripts/main/AnimeAdventures.lua"))()
+	
+	end)
+-- #discord invite
+
+local Chann1 = Tab1:Channel("👓│discord-invite") -- Channel 0_0
+Chann1:Button("Project Forecast Discord", function()
+	setclipboard("https://discord.gg/VtEFHgczVC")
+request = http_request or request or HttpPost or syn.request
+request({
+Url = "http://127.0.0.1:6463/rpc?v=1",
+Method = "POST",
+Headers = {
+["Content-Type"] = "application/json",
+["Origin"] = "https://discord.com"
+},
+Body = game:GetService("HttpService"):JSONEncode({
+cmd = "INVITE_BROWSER",
+args = {
+  code = "VtEFHgczVC"--example: your discord invite is https://discord.gg/ 3thBJx2axb then it should be "3thBJx2axb"
+},
+nonce = game:GetService("HttpService"):GenerateGUID(false)
+}),
+})
+end)
+
+--Trigon Server
+
+	local Tab1 = Win1:Server("Trigon Evo", "") -- Server/Tab
+	local Chann1 = Tab1:Channel("discord-invite") -- Channel 0_0
+	Chann1:Button("Trigon Evo Discord", function()
+		setclipboard("discord.gg/trigon")
+request = http_request or request or HttpPost or syn.request
+request({
+Url = "http://127.0.0.1:6463/rpc?v=1",
+Method = "POST",
+Headers = {
+  ["Content-Type"] = "application/json",
+  ["Origin"] = "https://discord.com"
+},
+Body = game:GetService("HttpService"):JSONEncode({
+  cmd = "INVITE_BROWSER",
+  args = {
+	  code = "trigon"--example: your discord invite is https://discord.gg/ 3thBJx2axb then it should be "3thBJx2axb"
+  },
+  nonce = game:GetService("HttpService"):GenerateGUID(false)
+}),
+})
+		end)
+
+--Your bizzare adventure
+
+-- #scripts
+
+	elseif game.PlaceId == 2809202155 then
+	local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+	
+	local Win1 = DiscordLib:Window("Your Bizarre Adventure") -- Title/Name
+	local Tab1 = Win1:Server("Project Forecast ☁", "") -- Server/Tab
+	local Chann1 = Tab1:Channel("🗒│scripts") -- Channel 0_0
+	Chann1:Label("Beta version, full release soon.")
+	Chann1:Button("★ Kolgie", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/kolgie/YBA-GUI/main/yba-gui-obfuscated.lua"))()
+		end)
+		Chann1:Button("★★ Beach Boy V3", function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/zakater5/LuaRepo/main/YBA/v3.lua"))()
+			end)
+			Chann1:Button("★★★ Auto Prestige 0-3, Level 50", function()
+				setclipboard = false
+				loadstring(game:HttpGet("https://pastebin.com/raw/4LHFummW"))()
+				end)
+
+				Chann1:Button("★ cuz yes gui", function()
+					getgenv().Key = "HelloEpicGUI"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SupBabe/YBAHOPPER/main/YBAv2.lua"))()
+					end)	
+					Chann1:Button("★★★5% Pity Auto Farm", function()
+						getgenv().PityWanted = "5%" --Example: "1.52%", "1.56%", "1.6%", "1.64%", "1.68%" because it's from 4 in 4. So if for example you want 4 pity you put 4.0% because it adds a "0" or 4.4% or you calculate it
+
+						loadstring(game:HttpGet("https://raw.githubusercontent.com/senS24t/sensnebunu/main/PityFarmBysenS"))()
+						end)								
+-- #requirement
+
+	local Chann1 = Tab1:Channel("📰│requirement") -- Channel 0_0
+	Chann1:Button("Auto Prestige", function()
+		DiscordLib:Notification("Notification", "Delete old Jotaro disc, Green Baby, And Dio bones. You need 5000 and a humanoide stand.", "ok") -- The Script The Button Executes
+		end)
+
+-- #discord invite
+
+local Chann1 = Tab1:Channel("👓│discord-invite") -- Channel 0_0
+Chann1:Button("Project Forecast Discord", function()
+	setclipboard("https://discord.gg/VtEFHgczVC")
+request = http_request or request or HttpPost or syn.request
+request({
+Url = "http://127.0.0.1:6463/rpc?v=1",
+Method = "POST",
+Headers = {
+["Content-Type"] = "application/json",
+["Origin"] = "https://discord.com"
+},
+Body = game:GetService("HttpService"):JSONEncode({
+cmd = "INVITE_BROWSER",
+args = {
+  code = "VtEFHgczVC"--example: your discord invite is https://discord.gg/ 3thBJx2axb then it should be "3thBJx2axb"
+},
+nonce = game:GetService("HttpService"):GenerateGUID(false)
+}),
+})
+end)
+
+--Trigon Server
+
+		local Tab1 = Win1:Server("Trigon Evo", "") -- Server/Tab
+		local Chann1 = Tab1:Channel("discord-invite") -- Channel 0_0
+		Chann1:Button("Trigon Evo Discord", function()
+			setclipboard("discord.gg/trigon")
+request = http_request or request or HttpPost or syn.request
+    request({
+    Url = "http://127.0.0.1:6463/rpc?v=1",
+    Method = "POST",
+    Headers = {
+      ["Content-Type"] = "application/json",
+      ["Origin"] = "https://discord.com"
+    },
+    Body = game:GetService("HttpService"):JSONEncode({
+      cmd = "INVITE_BROWSER",
+      args = {
+          code = "trigon"--example: your discord invite is https://discord.gg/ 3thBJx2axb then it should be "3thBJx2axb"
+      },
+      nonce = game:GetService("HttpService"):GenerateGUID(false)
+  }),
+})
+			end)
+
+--Your bizzare adventure SBR
+
+-- #scripts
+
+		elseif game.PlaceId == 4643697430 then
+			local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+	
+			local Win1 = DiscordLib:Window("Your Bizarre Adventure") -- Title/Name
+			local Tab1 = Win1:Server("Project Forecast ☁", "") -- Server/Tab
+			local Chann1 = Tab1:Channel("🗒│scripts") -- Channel 0_0
+			Chann1:Label("Beta version, full release soon.")
+Chann1:Button("★★★ Auto Steel Ball Run", function()
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/senS24t/sensnebunu/main/AutoSbrBysenS.lua"))()
+				end)
+
+-- #discord invite
+
+local Chann1 = Tab1:Channel("👓│discord-invite") -- Channel 0_0
+Chann1:Button("Project Forecast Discord", function()
+	setclipboard("https://discord.gg/VtEFHgczVC")
+request = http_request or request or HttpPost or syn.request
+request({
+Url = "http://127.0.0.1:6463/rpc?v=1",
+Method = "POST",
+Headers = {
+["Content-Type"] = "application/json",
+["Origin"] = "https://discord.com"
+},
+Body = game:GetService("HttpService"):JSONEncode({
+cmd = "INVITE_BROWSER",
+args = {
+  code = "VtEFHgczVC"--example: your discord invite is https://discord.gg/ 3thBJx2axb then it should be "3thBJx2axb"
+},
+nonce = game:GetService("HttpService"):GenerateGUID(false)
+}),
+})
+end)
+
+--Trigon Server
+
+local Tab1 = Win1:Server("Trigon Evo", "") -- Server/Tab
+local Chann1 = Tab1:Channel("discord-invite") -- Channel 0_0
+Chann1:Button("Trigon Evo Discord", function()
+	setclipboard("discord.gg/trigon")
+request = http_request or request or HttpPost or syn.request
+request({
+Url = "http://127.0.0.1:6463/rpc?v=1",
+Method = "POST",
+Headers = {
+["Content-Type"] = "application/json",
+["Origin"] = "https://discord.com"
+},
+Body = game:GetService("HttpService"):JSONEncode({
+cmd = "INVITE_BROWSER",
+args = {
+  code = "trigon"--example: your discord invite is https://discord.gg/ 3thBJx2axb then it should be "3thBJx2axb"
+},
+nonce = game:GetService("HttpService"):GenerateGUID(false)
+}),
+})
+	end)
+
+	end
