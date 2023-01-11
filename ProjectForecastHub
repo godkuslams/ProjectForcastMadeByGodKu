@@ -91,12 +91,7 @@ Body = game:GetService("HttpService"):JSONEncode({
 				Chann1:Button("★ cuz yes gui", function()
 					getgenv().Key = "HelloEpicGUI"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SupBabe/YBAHOPPER/main/YBAv2.lua"))()
-					end)	
-					Chann1:Button("★★★5% Pity Auto Farm", function()
-						getgenv().PityWanted = "5%" --Example: "1.52%", "1.56%", "1.6%", "1.64%", "1.68%" because it's from 4 in 4. So if for example you want 4 pity you put 4.0% because it adds a "0" or 4.4% or you calculate it
-
-						loadstring(game:HttpGet("https://raw.githubusercontent.com/senS24t/sensnebunu/main/PityFarmBysenS"))()
-						end)								
+					end)								
 -- #requirement
 
 	local Chann1 = Tab1:Channel("📰│requirement") -- Channel 0_0
