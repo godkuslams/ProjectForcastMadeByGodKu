@@ -271,4 +271,141 @@ nonce = game:GetService("HttpService"):GenerateGUID(false)
 })
 end)
 
+-- Blox Fruit
+
+
+-- #scripts
+
+elseif game.PlaceId == 2753915549 then
+	local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+
+	local Win1 = DiscordLib:Window("Your Bizarre Adventure") -- Title/Name
+	local Tab1 = Win1:Server("Project Forecast ☁", "") -- Server/Tab
+	local Chann1 = Tab1:Channel("🗒│scripts") -- Channel 0_0
+	Chann1:Label("Beta version, full release soon.")
+
+Chann1:Button("★★★ Mukuro Hub", function()
+	_G.Color = Color3.fromRGB(0, 255, 255)
+_G.Toggle = Enum.KeyCode.RightControl
+loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+		end)
+
+		Chann1:Button("★★★ Ren Hub", function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/bloxfruit/main/free'))()
+		end)
+
+		Chann1:Button("★★★ HoHo Hub", function()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+				end)
+
+-- #discord invite
+
+local Chann1 = Tab1:Channel("👓│discord-invite") -- Channel 0_0
+Chann1:Button("Project Forecast Discord", function()
+setclipboard("https://discord.gg/VtEFHgczVC")
+request = http_request or request or HttpPost or syn.request
+request({
+Url = "http://127.0.0.1:6463/rpc?v=1",
+Method = "POST",
+Headers = {
+["Content-Type"] = "application/json",
+["Origin"] = "https://discord.com"
+},
+Body = game:GetService("HttpService"):JSONEncode({
+cmd = "INVITE_BROWSER",
+args = {
+code = "VtEFHgczVC"--example: your discord invite is https://discord.gg/ 3thBJx2axb then it should be "3thBJx2axb"
+},
+nonce = game:GetService("HttpService"):GenerateGUID(false)
+}),
+})
+end)
+
+--Trigon Server
+
+local Tab1 = Win1:Server("Trigon Evo", "") -- Server/Tab
+local Chann1 = Tab1:Channel("discord-invite") -- Channel 0_0
+Chann1:Button("Trigon Evo Discord", function()
+setclipboard("discord.gg/trigon")
+request = http_request or request or HttpPost or syn.request
+request({
+Url = "http://127.0.0.1:6463/rpc?v=1",
+Method = "POST",
+Headers = {
+["Content-Type"] = "application/json",
+["Origin"] = "https://discord.com"
+},
+Body = game:GetService("HttpService"):JSONEncode({
+cmd = "INVITE_BROWSER",
+args = {
+code = "trigon"--example: your discord invite is https://discord.gg/ 3thBJx2axb then it should be "3thBJx2axb"
+},
+nonce = game:GetService("HttpService"):GenerateGUID(false)
+}),
+})
+end)
+
+-- Grand Piece Online
+
+
+-- #scripts
+
+elseif game.PlaceId == 3978370137 then
+	local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+
+	local Win1 = DiscordLib:Window("Your Bizarre Adventure") -- Title/Name
+	local Tab1 = Win1:Server("Project Forecast ☁", "") -- Server/Tab
+	local Chann1 = Tab1:Channel("🗒│scripts") -- Channel 0_0
+	Chann1:Label("Beta version, full release soon.")
+Chann1:Button("★★★ Pharaon", function()
+	loadstring(game:HttpGet("https://pharaohscript.xyz/free.lua", true))()
+		end)
+
+-- #discord invite
+
+local Chann1 = Tab1:Channel("👓│discord-invite") -- Channel 0_0
+Chann1:Button("Project Forecast Discord", function()
+setclipboard("https://discord.gg/VtEFHgczVC")
+request = http_request or request or HttpPost or syn.request
+request({
+Url = "http://127.0.0.1:6463/rpc?v=1",
+Method = "POST",
+Headers = {
+["Content-Type"] = "application/json",
+["Origin"] = "https://discord.com"
+},
+Body = game:GetService("HttpService"):JSONEncode({
+cmd = "INVITE_BROWSER",
+args = {
+code = "VtEFHgczVC"--example: your discord invite is https://discord.gg/ 3thBJx2axb then it should be "3thBJx2axb"
+},
+nonce = game:GetService("HttpService"):GenerateGUID(false)
+}),
+})
+end)
+
+--Trigon Server
+
+local Tab1 = Win1:Server("Trigon Evo", "") -- Server/Tab
+local Chann1 = Tab1:Channel("discord-invite") -- Channel 0_0
+Chann1:Button("Trigon Evo Discord", function()
+setclipboard("discord.gg/trigon")
+request = http_request or request or HttpPost or syn.request
+request({
+Url = "http://127.0.0.1:6463/rpc?v=1",
+Method = "POST",
+Headers = {
+["Content-Type"] = "application/json",
+["Origin"] = "https://discord.com"
+},
+Body = game:GetService("HttpService"):JSONEncode({
+cmd = "INVITE_BROWSER",
+args = {
+code = "trigon"--example: your discord invite is https://discord.gg/ 3thBJx2axb then it should be "3thBJx2axb"
+},
+nonce = game:GetService("HttpService"):GenerateGUID(false)
+}),
+})
+end)
+
 	end
