@@ -96,7 +96,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/SupBabe/YBAHOPPER/mai
 
 	local Chann1 = Tab1:Channel("📰│requirement") -- Channel 0_0
 	Chann1:Button("Auto Prestige", function()
-		DiscordLib:Notification("Notification", "Delete old Jotaro disc, Green Baby, And Dio bones. You need 5000 and a humanoide stand.", "ok") -- The Script The Button Executes
+		DiscordLib:Notification("Notification", "You need 5000 money, and a humanoide stand.", "ok nig*a") -- The Script The Button Executes
 		end)
 
 -- #discord invite
@@ -153,7 +153,7 @@ request = http_request or request or HttpPost or syn.request
 		elseif game.PlaceId == 4643697430 then
 			local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
 	
-			local Win1 = DiscordLib:Window("Your Bizarre Adventure") -- Title/Name
+			local Win1 = DiscordLib:Window("Your Bizarre Adventure, Steel Ball Run") -- Title/Name
 			local Tab1 = Win1:Server("Project Forecast ☁", "") -- Server/Tab
 			local Chann1 = Tab1:Channel("🗒│scripts") -- Channel 0_0
 			Chann1:Label("Beta version, full release soon.")
@@ -216,12 +216,12 @@ nonce = game:GetService("HttpService"):GenerateGUID(false)
 elseif game.PlaceId == 1537690962 then
 	local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
 
-	local Win1 = DiscordLib:Window("Your Bizarre Adventure") -- Title/Name
+	local Win1 = DiscordLib:Window("Bee Swarm Simulator") -- Title/Name
 	local Tab1 = Win1:Server("Project Forecast ☁", "") -- Server/Tab
 	local Chann1 = Tab1:Channel("🗒│scripts") -- Channel 0_0
 	Chann1:Label("Beta version, full release soon.")
 Chann1:Button("★★★ kometa", function()
-	loadstring(game:HttpGet('https://s.kometa.ga/kometa.lua'))()
+	loadstring(game:HttpGet('https://s.kometa.pw/kometa.lua'))()
 		end)
 
 -- #discord invite
@@ -279,7 +279,7 @@ end)
 elseif game.PlaceId == 2753915549 then
 	local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
 
-	local Win1 = DiscordLib:Window("Your Bizarre Adventure") -- Title/Name
+	local Win1 = DiscordLib:Window("Blox Fruit") -- Title/Name
 	local Tab1 = Win1:Server("Project Forecast ☁", "") -- Server/Tab
 	local Chann1 = Tab1:Channel("🗒│scripts") -- Channel 0_0
 	Chann1:Label("Beta version, full release soon.")
